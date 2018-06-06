@@ -4,10 +4,10 @@ const {interface, bytecode} = require('./compile');
 
 
 const provider = new HDWalletProvider(
-    //Enter your mneomonic words here. You can get it by installing Metamask chrome extension
-    'extra agent stove panda fan hill smile switch burden sound program idea',
+    //Enter your mnemonic words here. You can get it by installing Metamask chrome extension
+    'ADD YOUR MNEMONIC WORDS HERE',
     //Enter the Infura network link for the test netowork, get it on https://infura.io
-    'https://kovan.infura.io/FYNTfnJkeXbM1frF7hB6'
+    'https://kovan.infura.io/YOUR_API_KEY'
 );
 
 const web3 = new Web3(provider);
